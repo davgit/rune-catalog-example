@@ -1,0 +1,31 @@
+{
+  "name": "uuf6429/rune-catalog-example",
+  "type": "project",
+  "description": "A very simple example of Rune applied to a few products",
+  "keywords": ["rule", "engine", "expression", "uuf6429", "example"],
+  "homepage": "http://github.com/uuf6429/rune-catalog-example",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Christian Sciberras",
+      "homepage": "http://christian.sciberras.me"
+    }
+  ],
+  "require": {
+    "php": "^7.2",
+    "uuf6429/rune": "~2.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "uuf6429\\RuneCatalogExample\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "uuf6429\\RuneCatalogExample\\": "test"
+    }
+  }
+}
